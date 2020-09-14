@@ -16,32 +16,42 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html" aria-label="логотип Веб Студия" lang="en"
-              >Web Studio</a
+    <header class="header">
+      <nav class="navigation">
+        <ul class="navigation-list list">
+          <li class="navigation-list-item">
+            <a
+              class="logo link"
+              href="./index.html"
+              aria-label="логотип Веб Студия"
+              lang="en"
+              >Web <span class="logo-word link">Studio</span>
+            </a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="">Студия</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="./portfolio.html"
+              >Портфолио</a
             >
           </li>
-          <li>
-            <a href="">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a href="">Контакты</a>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
+      <address class="address">
+        <ul class="list">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="address-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="address-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
@@ -49,9 +59,9 @@
 
     <main>
       <!-- Hero -->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="modal-btn" type="button">Заказать услугу</button>
       </section>
 
       <!-- about us-->
@@ -290,7 +300,7 @@
       <!-- Contacts -->
       <section>
         <h2 lang="en">Web Studio</h2>
-        <address>
+        <address class="address">
           <ul>
             <li>
               <a href="https://goo.gl/maps/z1eApNmuFo8rXxbb8" target="blank"

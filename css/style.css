@@ -76,6 +76,10 @@ body {
   color: var(--accent-color);
 }
 
+.navigation-list-link.current {
+  color: var(--accent-color);
+}
+
 /* HERO */
 
 .hero-title {
@@ -195,7 +199,7 @@ body {
 .footer-address-map {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--footer-title-color);
 }
@@ -203,7 +207,7 @@ body {
 .footer-address-link {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -211,7 +215,7 @@ body {
 .social-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--footer-title-color);
@@ -220,8 +224,30 @@ body {
 .mail-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--footer-title-color);
+}
+
+/* Portfolio */
+
+.btn:hover {
+  color: var(--accent-color);
+}
+
+.works-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.works-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }

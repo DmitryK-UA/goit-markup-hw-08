@@ -17,193 +17,255 @@
 
   <body>
     <!-- Header -->
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html" aria-label="логотип Веб Студия" lang="en"
-              >Web Studio</a
+    <header class="header">
+      <nav class="navigtion">
+        <ul class="navigation-list list">
+          <li class="navigation-list-item">
+            <a
+              class="logo link"
+              href="./index.html"
+              aria-label="логотип Веб Студия"
+              lang="en"
+              >Web <span class="logo-word link">Studio</span></a
             >
           </li>
-          <li>
-            <a href="">Студия</a>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link current" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
-          <li>
-            <a href="">Контакты</a>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="address">
+        <ul class="address-list list">
+          <li class="address-list-item">
+            <a class="address-list-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="address-list-item">
+            <a class="address-list-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
+      <section class="portfolio">
         <h1 hidden>Portfolio</h1>
-        <div>
-          <ul>
-            <li>
-              <button type="button">Все</button>
+        <div class="buttons">
+          <ul class="buttons-list list">
+            <li class="buttons-list-item">
+              <button class="modal-btn btn" type="button">Все</button>
             </li>
-            <li>
-              <button type="button">Веб-сайты</button>
+            <li class="buttons-list-item">
+              <button class="modal-btn btn" type="button">Веб-сайты</button>
             </li>
-            <li>
-              <button type="button">Приложения</button>
+            <li class="buttons-list-item">
+              <button class="modal-btn btn" type="button">Приложения</button>
             </li>
-            <li>
-              <button type="button">Дизайн</button>
+            <li class="buttons-list-item">
+              <button class="modal-btn btn" type="button">Дизайн</button>
             </li>
-            <li>
-              <button type="button">Маркетинг</button>
+            <li class="buttons-list-item">
+              <button class="modal-btn btn" type="button">Маркетинг</button>
             </li>
           </ul>
         </div>
 
-        <div>
-          <ul>
-            <li>
-              <img
-                src="./images/portfolio/tehnokrjak.jpg"
-                alt="открыт сайт на ноутбуке"
-                width="370"
-                height="294"
-              />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+        <div class="works">
+          <ul class="works-list list">
+            <li class="works-list-item">
+              <a class="works-list-link link" href=""
+                ><img
+                  class="works-list-img"
+                  src="./images/portfolio/tehnokrjak.jpg"
+                  alt="открыт сайт на ноутбуке"
+                  width="370"
+                  height="294"
+                />
+              </a>
+              <h2 class="works-list-title">Технокряк</h2>
+              <p class="works-list-text">Веб-сайт</p>
             </li>
-            <li>
-              <img
-                src="./images/portfolio/poster.jpg"
-                alt="басскетбольный постер"
-                width="370"
-                height="294"
-              />
-              <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+            <li class="works-list-item">
+              <a class="works-list-link link" href=""
+                ><img
+                  class="works-list-img"
+                  src="./images/portfolio/poster.jpg"
+                  alt="басскетбольный постер"
+                  width="370"
+                  height="294"
+              /></a>
+              <h2 class="works-list-title">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="works-list-text">Дизайн</p>
             </li>
-            <li>
-              <img
-                src="./images/portfolio/seafood.jpg"
-                alt="логотип рыбного ресторана"
-                width="370"
-                height="294"
-              />
-              <h2>Ресторан <span lang="en">Seafood</span></h2>
-              <p>Приложение</p>
+            <li class="works-list-item">
+              <a class="works-list-link link" href=""
+                ><img
+                  class="works-list-img"
+                  src="./images/portfolio/seafood.jpg"
+                  alt="логотип рыбного ресторана"
+                  width="370"
+                  height="294"
+              /></a>
+              <h2 class="works-list-title">
+                Ресторан <span lang="en">Seafood</span>
+              </h2>
+              <p class="works-list-text">Приложение</p>
             </li>
-            <li>
-              <img
-                src="./images/portfolio/prime.jpg"
-                alt="фото наушников"
-                width="370"
-                height="294"
-              />
-              <h2>Проект <span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+            <li class="works-list-item">
+              <a class="works-list-link link" href=""
+                ><img
+                  class="works-list-img"
+                  src="./images/portfolio/prime.jpg"
+                  alt="фото наушников"
+                  width="370"
+                  height="294"
+              /></a>
+              <h2 class="works-list-title">
+                Проект <span lang="en">Prime</span>
+              </h2>
+              <p class="works-list-text">Маркетинг</p>
             </li>
-            <li>
-              <img
-                src="./images/portfolio/boxes.jpg"
-                alt="фото коробок"
-                width="370"
-                height="294"
-              />
-              <h2>Проект <span lang="en">Boxes</span></h2>
-              <p>Приложение</p>
+            <li class="works-list-item">
+              <a class="works-list-link link" href=""
+                ><img
+                  class="works-list-img"
+                  src="./images/portfolio/boxes.jpg"
+                  alt="фото коробок"
+                  width="370"
+                  height="294"
+              /></a>
+              <h2 class="works-list-title">
+                Проект <span lang="en">Boxes</span>
+              </h2>
+              <p class="works-list-text">Приложение</p>
             </li>
-            <li>
-              <img
-                src="./images/portfolio/inspirations.jpg"
-                alt="макентош про"
-                width="370"
-                height="294"
-              />
-              <h2 lang="en">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+            <li class="works-list-item">
+              <a class="works-list-link link" href=""
+                ><img
+                  class="works-list-img"
+                  src="./images/portfolio/inspirations.jpg"
+                  alt="макентош про"
+                  width="370"
+                  height="294"
+              /></a>
+              <h2 class="works-list-title" lang="en">
+                Inspiration has no Borders
+              </h2>
+              <p class="works-list-text">Веб-сайт</p>
             </li>
-            <li>
-              <img
-                src="./images/portfolio/limited-edition.jpg"
-                alt="открытый журнал"
-                width="370"
-                height="294"
-              />
-              <h2>Издание <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+            <li class="works-list-item">
+              <a class="works-list-link link" href=""
+                ><img
+                  class="works-list-img"
+                  src="./images/portfolio/limited-edition.jpg"
+                  alt="открытый журнал"
+                  width="370"
+                  height="294"
+              /></a>
+              <h2 class="works-list-title">
+                Издание <span lang="en">Limited Edition</span>
+              </h2>
+              <p class="works-list-text">Дизайн</p>
             </li>
-            <li>
-              <img
-                src="./images/portfolio/lab.jpg"
-                alt="фото бирки"
-                width="370"
-                height="294"
-              />
-              <h2>Проект <span lang="en">LAB</span></h2>
-              <p>Маркетинг</p>
+            <li class="works-list-item">
+              <a class="works-list-link link" href=""
+                ><img
+                  class="works-list-img"
+                  src="./images/portfolio/lab.jpg"
+                  alt="фото бирки"
+                  width="370"
+                  height="294"
+              /></a>
+              <h2 class="works-list-title">
+                Проект <span lang="en">LAB</span>
+              </h2>
+              <p class="works-list-text">Маркетинг</p>
             </li>
-            <li>
-              <img
-                src="./images/portfolio/business.jpg"
-                alt="кто-то печатает на ноутбуке"
-                width="370"
-                height="294"
-              />
-              <h2 lang="en">Growing Business</h2>
-              <p>Приложение</p>
+            <li class="works-list-item">
+              <a class="works-list-link link" href=""
+                ><img
+                  class="works-list-img"
+                  src="./images/portfolio/business.jpg"
+                  alt="кто-то печатает на ноутбуке"
+                  width="370"
+                  height="294"
+              /></a>
+              <h2 class="works-list-title" lang="en">Growing Business</h2>
+              <p class="works-list-text">Приложение</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <!-- Contacts -->
-      <section>
-        <h2 lang="en">Web Studio</h2>
-        <address>
-          <ul>
-            <li>
-              <a href="https://goo.gl/maps/z1eApNmuFo8rXxbb8" target="blank"
+      <section class="footer-address">
+        <h2 class="logo" lang="en">
+          Web <span class="logo-word">Studio</span>
+        </h2>
+        <address class="address">
+          <ul class="footer-address-list list">
+            <li class="footer-address-item">
+              <a
+                class="footer-address-map link"
+                href="https://goo.gl/maps/z1eApNmuFo8rXxbb8"
+                target="blank"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
-              <a href="mailto:info@devstudio.com">info@example.com</a>
+            <li class="footer-address-item">
+              <a
+                class="footer-address-link link"
+                href="mailto:info@devstudio.com"
+                >info@example.com</a
+              >
             </li>
-            <li>
-              <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <li class="footer-address-item">
+              <a class="footer-address-link link" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
             </li>
           </ul>
         </address>
       </section>
 
       <!-- Social media -->
-      <section>
-        <h2>присоединяйтесь</h2>
-        <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+      <section class="social">
+        <h2 class="social-title">присоединяйтесь</h2>
+        <ul class="social-list list">
+          <li class="social-list-item">
+            <a class="social-list-link link" href=""></a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link link" href=""></a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link link" href=""></a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link link" href=""></a>
+          </li>
         </ul>
       </section>
 
       <!-- Mail -->
-      <section>
-        <h2>Подпишитесь на рассылку</h2>
-        <button type="button">Подписаться</button>
+      <section class="mail">
+        <h2 class="mail-title">Подпишитесь на рассылку</h2>
+        <button class="modal-btn" type="button">Подписаться</button>
       </section>
     </footer>
   </body>

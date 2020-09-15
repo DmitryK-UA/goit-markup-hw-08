@@ -4,6 +4,7 @@
   --secondary-font: "Raleway", sans-serif;
   --main-text-color: #757575;
   --title-color: #212121;
+  --footer-title-color: #ffffff;
 }
 
 body {
@@ -60,7 +61,7 @@ body {
   color: var(--title-color);
 }
 
-.address-link {
+.address-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -70,8 +71,8 @@ body {
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
-.address-link:hover,
-.address-link:focus {
+.address-list-link:hover,
+.address-list-link:focus {
   color: var(--accent-color);
 }
 
@@ -105,6 +106,8 @@ body {
 }
 
 /* Main */
+
+/* About Us */
 
 .about-list-title {
   font-weight: 700;
@@ -142,4 +145,83 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+}
+
+.team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.186;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team-list-prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.186;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  color: var(--accent-color);
+}
+
+/* Clients */
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus,
+.footer-address-map:hover,
+.footer-address-map:focus {
+  color: var(--accent-color);
+}
+
+.footer-address-map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--footer-title-color);
+}
+
+.footer-address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--footer-title-color);
+}
+
+.mail-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--footer-title-color);
 }

@@ -43,6 +43,11 @@ img {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Палитра */
 /* accent and button #2196F3 */
 /* title color #212121 */
@@ -193,6 +198,16 @@ img {
 .about-list {
   display: flex;
   align-items: center;
+
+  margin-top: 94px;
+}
+
+.about.container {
+  height: 290px;
+}
+
+.about-list-items {
+  width: 270px;
 }
 
 .about-list-item:not(:last-child) {
@@ -208,6 +223,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+
+  margin-bottom: 50px;
+}
+
+.producsts-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* our team */
@@ -219,28 +241,46 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+
+  margin-bottom: 30px;
 }
 
 .team-list-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.186;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+
+  margin-bottom: 10px;
 }
 
 .team-list-prof {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.186;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
   color: var(--accent-color);
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-list-content {
+  padding: 30px 32px 0px;
+  background: #ffffff;
+}
+
+.team {
+  background: #f5f4fa;
 }
 
 /* Clients */
@@ -251,6 +291,14 @@ img {
   line-height: 1.166;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Footer */
@@ -259,11 +307,28 @@ img {
   background-color: #2f303a;
 }
 
+.footer .logo {
+  display: inline-block;
+
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
 .footer-address-link:hover,
 .footer-address-link:focus,
 .footer-address-map:hover,
 .footer-address-map:focus {
   color: var(--accent-color);
+}
+
+.footer .footer-address-list {
+  display: inline-block;
+
+  margin-bottom: 60px;
+}
+
+.footer-address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-address-map {
@@ -302,6 +367,11 @@ img {
 
 /* Portfolio */
 
+.buttons-list {
+  display: flex;
+  justify-content: center;
+}
+
 .btn:hover {
   color: var(--accent-color);
 }
@@ -320,4 +390,25 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+
+.portfolio-btn {
+  font-family: var(--maim-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+
+  height: 38px;
+  padding: 6px 22px;
+  /* background: #f5f4fa; */
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.buttons-list-item:not(:last-child) {
+  margin-right: 8px;
 }

@@ -51,12 +51,18 @@
           <ul class="address-list list">
             <li class="address-list-item">
               <a class="address-list-link link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+                ><svg class="mail-svg" width="16px" height="12px">
+                  <use href="./images/sprite.svg#envelope"></use>
+                </svg>
+                info@devstudio.com</a
               >
             </li>
             <li class="address-list-item">
               <a class="address-list-link link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
+                ><svg class="phone-svg" width="10px" height="16px">
+                  <use href="./images/sprite.svg#telephone"></use>
+                </svg>
+                +38 096 111 11 11</a
               >
             </li>
           </ul>
@@ -244,67 +250,87 @@
     </main>
 
     <footer class="footer">
-      <!-- Contacts -->
-      <section class="footer-address">
-        <div class="container">
-          <a
-            class="logo link"
-            href="./index.html"
-            aria-label="логотип Веб Студия"
-            lang="en"
-            >Web <span class="logo-word link">Studio</span></a
-          >
-          <address class="address">
-            <ul class="footer-address-list list">
-              <li class="footer-address-item">
-                <a
-                  class="footer-address-map link"
-                  href="https://goo.gl/maps/z1eApNmuFo8rXxbb8"
-                  target="blank"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
+      <div class="container">
+        <!-- Contacts -->
+        <section class="footer-address">
+          <div class="">
+            <a
+              class="logo link"
+              href="./index.html"
+              aria-label="логотип Веб Студия"
+              lang="en"
+              >Web <span class="logo-word link">Studio</span></a
+            >
+            <address class="address">
+              <ul class="footer-address-list list">
+                <li class="footer-address-item">
+                  <a
+                    class="footer-address-map link"
+                    href="https://goo.gl/maps/z1eApNmuFo8rXxbb8"
+                    target="blank"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="footer-address-item">
+                  <a
+                    class="footer-address-link link"
+                    href="mailto:info@devstudio.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="footer-address-item">
+                  <a class="footer-address-link link" href="tel:+380991111111"
+                    >+38 099 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+        </section>
+
+        <!-- Social media -->
+        <section class="social">
+          <div class="">
+            <h2 class="social-title">присоединяйтесь</h2>
+            <ul class="social-list list">
+              <li class="social-list-item">
+                <a class="social-list-link link" href="">
+                  <svg class="social-list-svg">
+                    <use href="./images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="footer-address-item">
-                <a
-                  class="footer-address-link link"
-                  href="mailto:info@devstudio.com"
-                  >info@example.com</a
-                >
+              <li class="social-list-item">
+                <a class="social-list-link link" href="">
+                  <svg class="social-list-svg">
+                    <use href="./images/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="footer-address-item">
-                <a class="footer-address-link link" href="tel:+380991111111"
-                  >+38 099 111 11 11</a
-                >
+              <li class="social-list-item">
+                <a class="social-list-link link" href="">
+                  <svg class="social-list-svg">
+                    <use href="./images/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a class="social-list-link link" href="">
+                  <svg class="social-list-svg">
+                    <use href="./images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-        </div>
-      </section>
+          </div>
+        </section>
 
-      <!-- Social media 
-      <section class="social">
-        <h2 class="social-title">присоединяйтесь</h2>
-        <ul class="social-list list">
-          <li class="social-list-item">
-            <a class="social-list-link link" href=""></a>
-          </li>
-          <li class="social-list-item">
-            <a class="social-list-link link" href=""></a>
-          </li>
-          <li class="social-list-item">
-            <a class="social-list-link link" href=""></a>
-          </li>
-          <li class="social-list-item">
-            <a class="social-list-link link" href=""></a>
-          </li>
-        </ul>
-      </section> -->
-
-      <!-- Mail 
-      <section class="mail">
-        <h2 class="mail-title">Подпишитесь на рассылку</h2>
-        <button class="modal-btn" type="button">Подписаться</button>
-      </section> -->
+        <!-- Mail
+          <section class="mail">
+            <h2 class="mail-title">Подпишитесь на рассылку</h2>
+            <button class="modal-btn" type="button">Подписаться</button>
+          </section>-->
+      </div>
     </footer>
   </body>
 </html>

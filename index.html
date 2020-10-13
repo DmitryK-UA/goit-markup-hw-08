@@ -76,7 +76,7 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button class="modal-btn" type="button">Заказать услугу</button>
+          <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -129,6 +129,9 @@
                 width="370"
                 height="294"
               />
+              <div class="poducts-overlay">
+              <p class="products-text">Десктопные приложения</p>
+              </div>
             </li>
             <li class="products-list-item">
               <img
@@ -138,6 +141,9 @@
                 width="370"
                 height="294"
               />
+              <div class="poducts-overlay">
+                <p class="products-text">Мобильные приложения</p>
+              </div>
             </li>
             <li class="products-list-item">
               <img
@@ -147,6 +153,9 @@
                 width="370"
                 height="294"
               />
+              <div class="poducts-overlay">
+              <p class="products-text">Дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -456,5 +465,17 @@
       </section>-->
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <svg class="close-button-svg" width="18px" height="18px">
+          <use href="./images/sprite.svg#close-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

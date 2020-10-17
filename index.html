@@ -458,14 +458,18 @@
           </div>
         </section>
 
-        <!-- Mail
+        <!-- Mail-->
       <section class="mail">
         <h2 class="mail-title">Подпишитесь на рассылку</h2>
-        <button class="modal-btn" type="button">Подписаться</button>
-      </section>-->
+            <form action="#" class="mail-form">
+             <input type="text" name="user-mail" class="mail-form-input" placeholder="E-mail">
+             <button class="mail-btn" type="submit">Подписаться</button>
+            </form>
+      </section>
       </div>
     </footer>
 
+      <!-- MODAL-WINDOW-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-button" data-modal-close>
@@ -473,6 +477,27 @@
           <use href="./images/sprite.svg#close-icon"></use>
           </svg>
         </button>
+        <form action="" class="modal-form">
+          <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+          <label class="modal-form-label">
+            Имя
+            <input type="text" name="user-name" class="modal-form-input">
+            <svg width="12" height="12" class="modal-form-svg">
+              <use href="./images/sprite.svg#name"></use>
+            </svg>
+          </label>
+          <label class="modal-form-label">
+            Телефон
+            <input type="tel" name="user-phone" class="modal-form-input">
+          </label>
+          <label class="modal-form-label">
+            Почта
+            <input type="mail" name="user-mail" class="modal-form-input">
+          </label>
+          <textarea name="" class="modal-form-message"></textarea>
+          <input type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy">
+          <button type="submit" class="modal-form-button">Отправить</button>
+        </form>
       </div>
     </div>
 

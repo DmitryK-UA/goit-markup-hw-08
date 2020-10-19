@@ -632,13 +632,6 @@ footer .social-list-link {
   margin-left: 8px;
 }
 
-/* .footer .mail-form {
-  display: inline-block;
-
-  margin-bottom: 60px;
-  margin-right: 70px;
-} */
-
 /* ========Modal-window========== */
 
 .backdrop {
@@ -816,6 +809,14 @@ footer .social-list-link {
 .modal-form-policy:checked + .modal-policy-label::before {
   background-color: var(--accent-color);
   border: transparent;
+}
+
+.modal-form-message::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 /* Portfolio */

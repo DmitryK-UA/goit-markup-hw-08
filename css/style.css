@@ -82,6 +82,7 @@ img {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -173,7 +174,7 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
-  bottom: -175%;
+  bottom: -180%;
   left: 0;
 }
 

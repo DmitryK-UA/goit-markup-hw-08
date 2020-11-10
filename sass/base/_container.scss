@@ -1,0 +1,40 @@
+.container {
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+
+    .header & {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    // .about & {
+    //   height: 120px;
+    // }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+
+    // .about & {
+    //   height: 290px;
+    // }
+
+    .footer & {
+      display: flex;
+    }
+  }
+}

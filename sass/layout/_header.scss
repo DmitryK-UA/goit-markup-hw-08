@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
@@ -46,11 +47,11 @@
       fill: $accent-color;
     }
 
-    .current {
+    &.current {
       color: $accent-color;
     }
 
-    .current::after {
+    &.current::after {
       content: "";
       position: absolute;
       bottom: 0;
@@ -97,36 +98,36 @@
   border: none;
   background-color: transparent;
 
-  & .icon-close {
+  &.icon-close {
     display: none;
   }
 
-  & .is-open .close-menu {
+  &.is-open .icon-close {
     display: block;
   }
 
-  & .is-open .menu {
+  &.is-open .icon-menu {
+    display: none;
+  }
+
+  @media screen and (min-width: 767px) {
     display: none;
   }
 }
 
-@media screen and (min-width: 480px) {
-  .menu-btn {
+@media screen and (max-width: 767px) {
+  .menu-container {
     display: none;
-  }
-}
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    font-size: 18px;
 
-.menu-container {
-  display: none;
-
-  position: absolute;
-  top: 100%;
-  left: 0;
-
-  padding: 20px;
-  text-align: center;
-
-  &-is-open {
-    display: block;
+    &.is-open {
+      display: block;
+    }
   }
 }

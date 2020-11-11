@@ -7,14 +7,10 @@
     width: 480px;
     margin: 0 auto;
 
-    .header & {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    // .about & {
-    //   height: 120px;
+    // .header & {
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: space-between;
     // }
   }
 }
@@ -28,13 +24,5 @@
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-
-    // .about & {
-    //   height: 290px;
-    // }
-
-    .footer & {
-      display: flex;
-    }
   }
 }

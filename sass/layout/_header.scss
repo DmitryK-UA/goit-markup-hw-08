@@ -1,15 +1,15 @@
-header {
+.header {
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
 
-  //   .address {
-  //     // margin-left: auto;
-  //   }
+  .address {
+    margin-left: auto;
+  }
 }
 
 .logo {
-  //   margin-right: 15px;
+  margin-right: 15px;
 
   font-family: $secondary-font;
   font-weight: 700;

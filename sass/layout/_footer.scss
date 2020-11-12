@@ -114,21 +114,23 @@
 
 @media screen and (max-width: 1199px) {
   .footer {
-    &.logo {
+    .logo {
       display: flex;
       justify-content: center;
+      text-align: center;
+      margin-right: 0;
 
       margin-bottom: 20px;
     }
 
-    &.container {
+    .container {
       display: flex;
       flex-direction: column;
       text-align: center;
     }
   }
 
-  &.mail {
+  .mail {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -141,24 +143,28 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer {
-    &-wrap {
+    .wrap {
       display: flex;
       justify-content: center;
-      align-items: baseline;
+      // align-items: baseline;
     }
 
-    &.address {
-      margin: 0 165px 60px 0;
+    .address-wrapper {
+      margin-right: 165px;
+      margin-bottom: 60px;
     }
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer {
-    &.address,
-    &.social {
+    &-address-list {
       margin-bottom: 60px;
     }
+  }
+
+  .social-wrapper {
+    margin-bottom: 60px;
   }
 }
 
